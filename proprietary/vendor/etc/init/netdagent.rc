@@ -4,5 +4,8 @@ service netdagent /vendor/bin/netdagent
     user system
     group net_admin net_raw system misc
 
-on init
-    setprop ro.vendor.net.upload.benchmark.default blocking
+#ifdef VENDOR_EDIT
+#yilong.wei@NW.RF 2019/12/14.2677779 delete for blocking antutu test
+#on init
+#    setprop ro.vendor.net.upload.benchmark.default blocking
+#endif VENDOR_EDIT

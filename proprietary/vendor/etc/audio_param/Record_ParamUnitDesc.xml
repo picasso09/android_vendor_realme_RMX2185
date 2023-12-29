@@ -3,8 +3,9 @@
 	<CategoryTypeList>
 		<CategoryType name="Scene" feature_option="VIR_SCENE_CUSTOMIZATION_SUPPORT">
 			<Category name="Default" wording="Default"/>
-			<Category name="App1" wording="Application1" visible="false"/>
-			<Category name="App2" wording="Application2" visible="false"/>
+			<Category name="App1" wording="Application1" visible="true"/>
+			<Category name="App2" wording="Application2" visible="true"/>
+			<Category name="App3" wording="Application3" visible="true"/>
 		</CategoryType>
 		<CategoryType name="Application">
 			<Category name="SndRecNormal" wording="Sound recording"/>
@@ -13,13 +14,12 @@
 			<Category name="CamRecNormal" wording="Camera recording"/>
 			<Category name="CamRecMeeting" wording="Meeting" visible="false"/>
 			<Category name="ASR" wording="ASR improvement" visible="false"/>
-			<Category name="VR" wording="Voice recognition" />
+			<Category name="VR" wording="Voice recognition &amp; CTS verifier" />
 			<Category name="VoiceUnLk" visible="false" />
 			<Category name="Customization2" visible="false"/>
 			<Category name="FastRecord" visible="false"/>
 			<Category name="Unprocessed" visible="false"/>
-			<Category name="IncallRecord" visible="false"/>
-			<Category name="VoicePerformance" wording="Voice performance recording"/>
+			<Category name="IncallRecord" visible="true"/>
 		</CategoryType>
 		<CategoryType name="Profile" wording="Device">
 			<Category name="Handset"/>

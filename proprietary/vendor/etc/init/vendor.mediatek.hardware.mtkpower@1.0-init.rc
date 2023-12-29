@@ -86,6 +86,8 @@ on post-fs-data
     chmod 0664 /proc/perfmgr/boost_ctrl/eas_ctrl/sched_big_task_rotation
     chown system system /proc/perfmgr/boost_ctrl/eas_ctrl/sched_stune_task_thresh
     chmod 0664 /proc/perfmgr/boost_ctrl/eas_ctrl/sched_stune_task_thresh
+    chown system system /proc/perfmgr/boost_ctrl/eas_ctrl/perfserv_prefer_idle
+    chmod 0664 /proc/perfmgr/boost_ctrl/eas_ctrl/perfserv_prefer_idle
     chown system system /proc/perfmgr/boost_ctrl/topo_ctrl/is_big_little
     chmod 0664 /proc/perfmgr/boost_ctrl/topo_ctrl/is_big_little
     chown system system /proc/perfmgr/boost_ctrl/topo_ctrl/nr_clusters
@@ -198,7 +200,9 @@ on post-fs-data
     chmod 0664 /sys/module/fbt_cpu/parameters/loading_time_diff
     chown system system /sys/module/fbt_cpu/parameters/loading_th
     chmod 0664 /sys/module/fbt_cpu/parameters/loading_th
-
+    chown system system /sys/kernel/debug/fpsgo/common/fpsgo_enable
+    chmod 0664 /sys/kernel/debug/fpsgo/common/fpsgo_enable
+    
 # VPU, MDLA
     chown system system /sys/kernel/debug/mdla/power
     chmod 0664 /sys/kernel/debug/mdla/power
@@ -216,6 +220,10 @@ on post-fs-data
     chmod 0664 /sys/fs/f2fs/mmcblk0p42/current_flush_merge
     chown system system /sys/fs/ext4/sdc42/temp_disable_barrier
     chmod 0664 /sys/fs/ext4/sdc42/temp_disable_barrier
+
+#FPSGO
+    chown system system /sys/kernel/debug/fpsgo/common/force_onoff
+    chmod 0664 /sys/kernel/debug/fpsgo/common/force_onoff
 
 # BLKDEV
     chown system system /sys/block/sdc/queue/read_ahead_kb

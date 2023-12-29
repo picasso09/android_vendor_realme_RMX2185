@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ParamUnitDesc tab_name="Voice" version="1.2">
 	<CategoryTypeList>
-		<CategoryType name="Scene" feature_option="VIR_SCENE_CUSTOMIZATION_SUPPORT">
-			<Category name="Default" wording="Default"/>
-			<Category name="App1" wording="Application1" visible="false"/>
-			<Category name="App2" wording="Application2" visible="false"/>
-		</CategoryType>
 		<CategoryType name="Band" wording="Bandwidth">
 			<Category name="NB" wording="Narrow Band"/>
 			<Category name="WB" wording="Wide Band"/>
@@ -31,20 +26,16 @@
 				<Category name="Tty_VCO_Handsfree" wording="TTY VCO Handsfree"/>
 			</CategoryGroup>
 			<CategoryGroup name="BT Device" wording="Bluetooth">
-				<Category name="BT_NREC_On_NB" wording="BT_NREC_On_NB"/>
-				<Category name="BT_NREC_On_WB" wording="BT_NREC_On_WB"/>
+				<Category name="BT_Earphone" wording="BT_NREC_On"/>
 				<Category name="BT_NREC_Off"/>
 			</CategoryGroup>
 			<CategoryGroup name="USB Device">
-				<Category name="Usb_Headset" wording="USB Headset" feature_option="VIR_MTK_USB_PHONECALL"/>
+				<Category name="Usb_Headset" wording="USB Headset" feature_option="MTK_USB_PHONECALL"/>
 			</CategoryGroup>
-			<CategoryGroup name="Loopback">
+			<CategoryGroup name="Loopback" feature_option="MTK_AUDIO_SPH_LPBK_PARAM">
 				<Category name="Lpbk_Handset" wording="Handset"/>
 				<Category name="Lpbk_Headset" wording="Headset"/>
 				<Category name="Lpbk_Handsfree" wording="Handsfree"/>
-				<Category name="Lpbk_Nodelay_Headset_Mic1" wording="Nodelay_Headset_Mic1" feature_option="SPH_PARAM_LPBK_NODELAY"/>
-				<Category name="Lpbk_Nodelay_Headset_Mic2" wording="Nodelay_Headset_Mic2" feature_option="SPH_PARAM_LPBK_NODELAY"/>
-				<Category name="Lpbk_Nodelay_Headset_Mic3" wording="Nodelay_Headset_Mic3" feature_option="SPH_PARAM_LPBK_NODELAY"/>
 			</CategoryGroup>
 			<CategoryGroup name="Super Volume" feature_option="SPH_PARAM_SV">
 				<Category name="Handset_SV"/>

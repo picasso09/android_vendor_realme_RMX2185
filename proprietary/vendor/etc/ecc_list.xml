@@ -286,6 +286,10 @@
     <EccEntry Ecc="112" Category="4" Condition="1" Plmn="466 05"/>
     <EccEntry Ecc="119" Category="2" Condition="1" Plmn="466 05"/>
 
+    <!-- Add for Taiwan T star operator (466 89) -->
+    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="466 89"/>
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="466 89"/>
+
     <!-- Add for Taiwan CHT operator (466 92) -->
     <EccEntry Ecc="110" Category="0" Condition="2" Plmn="466 92"/>
     <EccEntry Ecc="119" Category="0" Condition="2" Plmn="466 92"/>
@@ -301,10 +305,6 @@
     <EccEntry Ecc="112" Category="2" Condition="1" Plmn="466 99"/>
     <EccEntry Ecc="119" Category="4" Condition="1" Plmn="466 99"/>
 
-    <!-- Add for Taiwan T star operator (466 89) -->
-    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="466 89"/>
-    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="466 89"/>
-
     <!-- #ifdef ODM_WT_EDIT -->
     <!-- Jinhua.Wan@ODM_WT.NW.AP.2626161, 2019/12/06, add fake ecc 118 for taiwan-->
     <EccEntry Ecc="118" Category="0" Condition="2" Plmn = "466 FFF" />
@@ -317,23 +317,6 @@
     <EccEntry Ecc="000" Category="31" Condition="1" Plmn="505 01"/>
     <!-- Add for All Australia operators -->
     <EccEntry Ecc="000" Category="0" Condition="1" Plmn="505 FFF"/>
-
-    <!-- Add for Thailand TrueMove operator (520 00/04) -->
-    <EccEntry Ecc="191" Category="0" Condition="1" Plmn = "520 FFF" />
-    <EccEntry Ecc="199" Category="0" Condition="1" Plmn = "520 FFF" />
-    <EccEntry Ecc="1669" Category="0" Condition="1" Plmn = "520 FFF" />
-    <EccEntry Ecc="191" Category="0" Condition="2" Plmn = "520 05" />
-    <EccEntry Ecc="199" Category="0" Condition="2" Plmn = "520 05" />
-    <EccEntry Ecc="1669" Category="0" Condition="2" Plmn = "520 05" />
-    <EccEntry Ecc="191" Category="0" Condition="2" Plmn = "520 03" />
-    <EccEntry Ecc="199" Category="0" Condition="2" Plmn = "520 03" />
-    <EccEntry Ecc="1669" Category="0" Condition="2" Plmn = "520 03" />
-    <EccEntry Ecc="191" Category="0" Condition="2" Plmn = "520 01" />
-    <EccEntry Ecc="199" Category="0" Condition="2" Plmn = "520 01" />
-    <EccEntry Ecc="1669" Category="0" Condition="2" Plmn = "520 01" />
-    <EccEntry Ecc="191" Category="0" Condition="2" Plmn = "520 18" />
-    <EccEntry Ecc="199" Category="0" Condition="2" Plmn = "520 18" />
-    <EccEntry Ecc="1669" Category="0" Condition="2" Plmn = "520 18" />
 
     <!--#ifdef VENDOR_EDIT-->
     <!--Yumei.Sun@Xinzhi.PSW.NW.CALL.2470282, 2019-10-22-->
@@ -361,6 +344,11 @@
     <!--218 Bosnia and Herzegovina-->
     <!--216 Hungary-->
     <!--219 Croatia-->
+    <EccEntry Ecc="192" Category="0" Condition="2" Plmn = "219 FFF" />
+    <EccEntry Ecc="193" Category="0" Condition="2" Plmn = "219 FFF" />
+    <EccEntry Ecc="194" Category="0" Condition="2" Plmn = "219 FFF" />
+    <EccEntry Ecc="195" Category="0" Condition="2" Plmn = "219 FFF" />
+    <EccEntry Ecc="1987" Category="0" Condition="2" Plmn = "219 FFF" />
     <!--220 Serbia and Montenegro-->
     <!--222 Italy-->
     <!--226 Romania-->
@@ -441,12 +429,8 @@
     <!--262 Germany-->
     <!-- #ifdef ODM_WT_EDIT -->
     <!-- Jinhua.Wan@ODM_WT.NW.AP, 2020/02/20, consistent with qct(ecc_list_oppo_qct)-->
+    <!-- Zhimin.Deng@ODM_HQ.NW.ECC.200338, 2021/02/05, del 110 as ecc -->
     <!--<EccEntry Ecc="110" Category="0" Condition="1" Plmn="262 FFF"/>-->
-    <!-- #endif ODM_WT_EDIT -->
-    <!-- Xingyu.Lin@ODM_WT.NW.AP.2819217, 2020/11/20, ECC 110 for Germany-->
-    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="262 03"/>
-    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="262 07"/>
-    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="262 11"/>
     <!-- #endif ODM_WT_EDIT -->
     <!--266 Gibraltar-->
     <!--268 Portugal-->
@@ -554,10 +538,13 @@
     <EccEntry Ecc="1122" Category="0" Condition="2" Plmn="410 FFF"/>
     <!--412 Afghanistan-->
     <!--413 Sri Lanka-->
-    <EccEntry Ecc="911" Category="0" Condition="2" Plmn="413 03"/>
-    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="413 FFF"/>
-    <EccEntry Ecc="118" Category="0" Condition="2" Plmn="413 FFF"/>
-    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="413 FFF"/>
+    <!-- #ifdef ODM_WT_EDIT -->
+    <!-- Junfeng.Gao@ODM_WT.NW.ECC.2811866, 2020/09/18 -->
+    <EccEntry Ecc="110" Category="4" Condition="2" Plmn="413 FFF"/>
+    <EccEntry Ecc="112" Category="1" Condition="3" Plmn="413 FFF"/>
+    <EccEntry Ecc="118" Category="1" Condition="2" Plmn="413 FFF"/>
+    <EccEntry Ecc="119" Category="1" Condition="2" Plmn="413 FFF"/>
+    <!-- #endif /*ODM_WT_EDIT*/ -->
     <!--414 Myanmar-->
     <EccEntry Ecc="08" Category="0" Condition="1" Plmn="414 FFF"/>
     <EccEntry Ecc="000" Category="0" Condition="1" Plmn="414 FFF"/>
@@ -671,6 +658,13 @@
     <EccEntry Ecc="113" Category="0" Condition="2" Plmn="452 FFF"/>
     <EccEntry Ecc="114" Category="0" Condition="2" Plmn="452 FFF"/>
     <EccEntry Ecc="115" Category="0" Condition="2" Plmn="452 FFF"/>
+
+    <!--#ifdef VENDOR_EDIT-->
+    <!--guliyun@PSW.NW.ECALL,106234,2020/11/25-->
+    <EccEntry Ecc="113" Category="1" Condition="1" Plmn="452 02"/>
+    <EccEntry Ecc="114" Category="4" Condition="1" Plmn="452 02"/>
+    <EccEntry Ecc="115" Category="2" Condition="1" Plmn="452 02"/>
+    <!--#endif VENDOR_EDIT-->
     <!--454 HongKong-->
     <!--MTK orig for 454 Korea-->
     <!--455 Macao, China-->
@@ -904,29 +898,39 @@
     <!--714 Panama-->
     <!--716 Peru-->
     <EccEntry Ecc="105" Category="0" Condition="1" Plmn = "716 FFF" />
-    <EccEntry Ecc="115" Category="0" Condition="1" Plmn = "716 FFF" />
-    <EccEntry Ecc="116" Category="0" Condition="1" Plmn = "716 FFF" />
-    <EccEntry Ecc="117" Category="0" Condition="1" Plmn = "716 FFF" />
     <!--722 Argentine-->
     <!--724 Brazil-->
     <EccEntry Ecc="190" Category="0" Condition="1" Plmn = "724 FFF" />
+    <EccEntry Ecc="194" Category="0" Condition="1" Plmn = "724 FFF" />
+    <EccEntry Ecc="197" Category="0" Condition="1" Plmn = "724 FFF" />
+    <EccEntry Ecc="199" Category="0" Condition="1" Plmn = "724 FFF" />
     <!--730 Chile-->
     <EccEntry Ecc="133" Category="0" Condition="1" Plmn = "730 FFF" />
-    <EccEntry Ecc="132" Category="0" Condition="2" Plmn = "730 FFF" />
-    <EccEntry Ecc="131" Category="0" Condition="2" Plmn = "730 FFF" />
+    <!--#ifdef ODM_HQ_EDIT -->
+    <!--wangyong@ODM_HQ.NW.Call,2020/10/09,77505,update ECC for Chile-->
+    <EccEntry Ecc="132" Category="0" Condition="1" Plmn = "730 FFF" />
+    <EccEntry Ecc="131" Category="0" Condition="1" Plmn = "730 FFF" />
+    <EccEntry Ecc="134" Category="0" Condition="1" Plmn = "730 FFF" />
+    <!--#endif ODM_HQ_EDIT -->
+
     <!--732 Colombia-->
     <!--#ifdef ODM_HQ_EDIT -->
     <!--hujunxia@ODM_HQ.NW.Call,2020/03/05 add ECC for Colombia-->
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="732 FFF"/>
-    <EccEntry Ecc="119" Category="0" Condition="1" Plmn="732 FFF"/>
-    <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="732 FFF"/>
     <!--#endif ODM_HQ_EDIT -->
     <!--734 Venezuela-->
     <EccEntry Ecc="171" Category="0" Condition="1" Plmn = "734 FFF" />
     <!--736 Bolivia-->
-    <EccEntry Ecc="110" Category="0" Condition="1" Plmn = "736 FFF" />
-    <EccEntry Ecc="129" Category="0" Condition="1" Plmn = "736 FFF" />
+    <!--#ifdef ODM_HQ_EDIT -->
+    <!--Limiao@ODM_HQ.NW.Call,171609 2021/01/13 add ECC for Bolivia-->
+    <EccEntry Ecc="104" Category="0" Condition="2" Plmn = "736 FFF" />
+    <EccEntry Ecc="110" Category="0" Condition="2" Plmn = "736 FFF" />
+    <EccEntry Ecc="114" Category="0" Condition="2" Plmn = "736 FFF" />
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn = "736 FFF" />
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn = "736 FFF" />
+    <EccEntry Ecc="911" Category="0" Condition="2" Plmn = "736 FFF" />
+    <!--#endif ODM_HQ_EDIT -->
     <!--738 Guyana-->
     <!--740 Ecuador-->
     <!--746 Suriname-->
