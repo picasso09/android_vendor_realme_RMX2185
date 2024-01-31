@@ -288,8 +288,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/realme/RMX2185/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
     vendor/realme/RMX2185/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
-    vendor/realme/RMX2185/proprietary/vendor/etc/apdb/APDB_mt6765_S01__W1952:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_mt6765_S01__W1952 \
-    vendor/realme/RMX2185/proprietary/vendor/etc/apdb/APDB_mt6765_S01__W1952_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_mt6765_S01__W1952_ENUM \
+    vendor/realme/RMX2185/proprietary/vendor/etc/apdb/APDB_mt6765_S01__W2020:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_mt6765_S01__W2020 \
+    vendor/realme/RMX2185/proprietary/vendor/etc/apdb/APDB_mt6765_S01__W2020_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_mt6765_S01__W2020_ENUM \
     vendor/realme/RMX2185/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/realme/RMX2185/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
     vendor/realme/RMX2185/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
