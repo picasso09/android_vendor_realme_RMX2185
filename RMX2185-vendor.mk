@@ -708,9 +708,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/vendor/firmware/tp/206A1/txd_auo_ilitek.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/206A1/txd_auo_ilitek.bin \
     vendor/realme/RMX2185/proprietary/vendor/firmware/tp/206A1/txd_auo_ilitek.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/206A1/txd_auo_ilitek.ini \
     vendor/realme/RMX2185/proprietary/vendor/firmware/tp/206A1/txd_auo_ilitek_oppo_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/206A1/txd_auo_ilitek_oppo_signed.bin \
-    vendor/realme/RMX2185/proprietary/vendor/firmware/tp/206A1/xl_auo_ilitek.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/206A1/xl_auo_ilitek.bin \
-    vendor/realme/RMX2185/proprietary/vendor/firmware/tp/206A1/xl_auo_ilitek.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/206A1/xl_auo_ilitek.ini \
-    vendor/realme/RMX2185/proprietary/vendor/firmware/tp/206A1/xl_auo_ilitek_oppo_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/206A1/xl_auo_ilitek_oppo_signed.bin \
     vendor/realme/RMX2185/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/realme/RMX2185/proprietary/vendor/firmware/txpowerctrl_132769.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_132769.cfg \
     vendor/realme/RMX2185/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
