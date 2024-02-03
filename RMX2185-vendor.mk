@@ -969,7 +969,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/vendor/lib64/android.frameworks.fingerprintservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.fingerprintservice@1.0.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
-    vendor/realme/RMX2185/proprietary/vendor/lib64/egl/libEGL_mtk.s:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_mtk.so \
+    vendor/realme/RMX2185/proprietary/vendor/lib64/egl/libEGL_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_mtk.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/egl/libGLESv1_CM_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_mtk.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/egl/libGLESv2_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_mtk.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/ese_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_client.so \
