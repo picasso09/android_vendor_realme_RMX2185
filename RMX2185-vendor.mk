@@ -805,7 +805,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
     vendor/realme/RMX2185/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
     vendor/realme/RMX2185/proprietary/vendor/lib/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcharon-ss.so \
-    vendor/realme/RMX2185/proprietary/vendor/lib/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl_ndk.mtk.so \
     vendor/realme/RMX2185/proprietary/vendor/lib/libcrypto-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcrypto-ss.so \
     vendor/realme/RMX2185/proprietary/vendor/lib/libcurl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl-ss.so \
     vendor/realme/RMX2185/proprietary/vendor/lib/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl_xcap_md.so \
