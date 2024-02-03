@@ -1043,10 +1043,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libTBaseProvisioning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTBaseProvisioning.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libTBaseProvisioningAT.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTBaseProvisioningAT.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
-    vendor/realme/RMX2185/proprietary/vendor/lib64/libVDBlurlessAPI_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDBlurlessAPI_v2.so \
+    vendor/realme/RMX2185/proprietary/vendor/lib64/libVDBlurless.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDBlurless.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libVDDualCameraBlurless.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDDualCameraBlurless.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libVDExternal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDExternal.so \
-    vendor/realme/RMX2185/proprietary/vendor/lib64/libVDEyeEnhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDEyeEnhance.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libVDPostureDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDPostureDetection.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDSuperPhotoAPI.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bsscore.so \
