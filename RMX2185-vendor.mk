@@ -1293,10 +1293,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimaka.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libsixth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsixth.so \
-    vendor/realme/RMX2185/proprietary/vendor/lib64/libsl_fp_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_algo.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_impl.so \
-    vendor/realme/RMX2185/proprietary/vendor/lib64/libsl_fp_nosec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_nosec.so \
-    vendor/realme/RMX2185/proprietary/vendor/lib64/libsl_fp_prepro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_prepro.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/libssl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl-ss.so \
