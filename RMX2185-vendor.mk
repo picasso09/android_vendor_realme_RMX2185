@@ -1413,8 +1413,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/vendor/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/realme/RMX2185/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
-    vendor/realme/RMX2185/proprietary/vendor/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so
+    vendor/realme/RMX2185/proprietary/vendor/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so \
+    vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/etc/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/diracmobile.config \
+    vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libDiracAPI_SHARED.so \
+    vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdpframework.so \
+    vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libdirac.so \
+    vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib64/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdpframework.so
 
 PRODUCT_PACKAGES += \
+    EngineerMode \
     android.hardware.cas@1.1-service \
     android.hardware.gpu@1.o-service
