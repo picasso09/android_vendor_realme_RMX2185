@@ -1422,5 +1422,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     EngineerMode \
-    android.hardware.cas@1.1-service \
-    android.hardware.gpu@1.o-service
+    android.hardware.neuralnetworks@1.3-service-mtk-gpu \
+    android.hardware.gpu@1.0-service.xml \
+    manifest_android.hardware.drm@1.4-service.widevine
