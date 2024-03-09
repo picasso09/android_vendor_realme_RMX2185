@@ -26,7 +26,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.gpu@1.0-service.xml",
+	name: "android.hardware.gpu@1.0-service",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml",
 	filename_from_src: true,
