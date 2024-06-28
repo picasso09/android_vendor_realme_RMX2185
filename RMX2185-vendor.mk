@@ -599,6 +599,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/vendor/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin \
     vendor/realme/RMX2185/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
     vendor/realme/RMX2185/proprietary/vendor/etc/camera/merged_model_post:$(TARGET_COPY_OUT_VENDOR)/etc/camera/merged_model_post \
+    vendor/realme/RMX2185/proprietary/vendor/etc/class.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/class.tflite \
+    vendor/realme/RMX2185/proprietary/vendor/etc/detect.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/detect.tflite \
     vendor/realme/RMX2185/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/realme/RMX2185/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/realme/RMX2185/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
